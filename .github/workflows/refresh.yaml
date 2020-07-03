@@ -1,4 +1,4 @@
-name: Refresh sources
+name: Scheduled refresh sources
 
 on:
   schedule:
