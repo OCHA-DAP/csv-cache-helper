@@ -12,7 +12,8 @@ Flee,Brunel University London (contributions from HiDALGO consortium and VECMA c
 INFORM Risk Index,Joint Research Centre of European Commission with contributions from multiple partners,Global coverage (subnational in some countries),"Risk for humanitarian crisis and disasters is evaluated along three dimensions coping capacity, vulnerability and hazard. The model has global coverage, and the output is national scale.","It was developed in the 2014, and it is updated twice a year",Coordination and context,http://publications.europa.eu/resource/cellar/b1ef756c-5fbc-11e7-954d-01aa75ed71a1.0001.02/DOC_1,"<a href=""mailto:contact@inform-index.org"">contact@inform-index.org</a>","<ul><li><a href=""www.inform-index.org"">www.inform-index.org</a></li>
 
 <li><a href=""http://publications.europa.eu/resource/cellar/b1ef756c-5fbc-11e7-954d-01aa75ed71a1.0001.02/DOC_1"">http://publications.europa.eu/resource/cellar/b1ef756c-5fbc-11e7-954d-01aa75ed71a1.0001.02/DOC_1</a></li></ul>"
-Foresight Project,Danish Refugee Council and IBM,"Afghanistan, Myanmar",The project develops a forecasting model for total forced displacement from a country 1-3 years ahead. Total forced displacement is a combination of refugees and asylum seekers outside a given country and the internally displaced in the same country.,The project was updated in 2019-2020 and it will be continuously updated with more countries.,Refugees and persons of concern,https://github.com/IBM/mixed-migration-forecasting,"<a href=""mailtp:drc@drc.ngo"">drc@drc.ngo</a>","<a href=""https://youtu.be/WFAhHkzPS_k"">https://youtu.be/WFAhHkzPS_k</a>"
+"<a href=""https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/be6ab2c8-f3c4-4045-9acf-529f6091c253/download/drc-model-card.pdf"">https://youtu.be/WFAhHkzPS_k</a>",Danish Refugee Council and IBM,"Afghanistan, Myanmar",The project develops a forecasting model for total forced displacement from a country 1-3 years ahead. Total forced displacement is a combination of refugees and asylum seekers outside a given country and the internally displaced in the same country.,The project was updated in 2019-2020 and it will be continuously updated with more countries.,Refugees and persons of concern,https://github.com/IBM/mixed-migration-forecasting,"<a href=""mailtp:drc@drc.ngo"">drc@drc.ngo</a>","<a href=""https://data.humdata.org/dataset/2048a947-5714-4220-905b-e662cbcd14c8/resource/be6ab2c8-f3c4-4045-9acf-529f6091c253/download/drc-model-card.pdf"">OCHA-Bucky model card</a> according to the <a href=""https://centre.humdata.org/peer-review-framework-2020"">Centre's Peer Review Framework.</a> 
+"
 The Inundation Model - Google flood forecasting model,Google AI for Social Good,Pilot in India (Bihar) with extended coverage in in 2019 in the Indian subcontinent.,Simulation based real time flood forecasting model. Accurate predictions of severity and locations of flooding based on AI and physics simulation. Integrated with local partners to put an active warning system in place.,Project started mid 2018 and latest 2019 iteration available online. ,Affected areas,,"<a href=""https://ai.googleblog.com/2019/03/a-summary-of-google-flood-forecasting.html"">https://ai.googleblog.com/2019/03/a-summary-of-google-flood-forecasting.html</a>","<ul><li><a href=""https://aiforsocialgood.github.io/2018/pdfs/track2/79_aisg_neurips2018.pdf"">https://aiforsocialgood.github.io/2018/pdfs/track2/79_aisg_neurips2018.pdf</a></li>
 
 <li><a href=""https://ai.googleblog.com/2019/09/an-inside-look-at-flood-forecasting.html"">https://ai.googleblog.com/2019/09/an-inside-look-at-flood-forecasting.html</a></li></ul>"
@@ -77,9 +78,26 @@ https://www.crisisgroup.org/about-crisiswatch"
 The Early Warning Project ,Simon-Skjodt Center and Dartmouth College,Global coverage,The statistical model of this project computes risk of mass killing and genocide by studying previous episodes (1945- present) to identify predictors and risk factors. Various models are cross validated and the best performing ones are then used to make predictions for the next two years. The output of a model is an estimated risk (of an onset of a mass killing) and the country's vulnerability rank. ,New predictions made every 2 years,Conflict,https://earlywarningproject.ushmm.org/methodology-statistical-model,,"Main Website - https://earlywarningproject.ushmm.org/
 
 https://earlywarningproject.ushmm.org/map"
-"Johns Hopkins University, Applied Physics Laboratory - Bucky model",Johns Hopkins University Applied Physics Laboratory,"Completed: Afghanistan, Sudan, Somalia, South Sudan, Democratic Republic of the Congo. Ongoing: Burundi, Burkina Faso, Central African Republic, Cameroon, Colombia, Ethiopia, Haiti, Iraq, Libya, Mali, Myanmar, Niger, Nigeria, State of Palestine, Syrian Arab Republic, Chad, Ukraine, Venezuela (Bolivarian Republic of), Yemen, Zimbabwe
-","Multiple regional SEIR (Susceptible, Exposed, Infectious, Recovered) models are connected to each other using estimates of population movement, and evolved over time using a set of differential equations. The goal is to take into account the heterogeneous population distribution of a country, and estimate the effectiveness of non-pharmaceutical interventions.
-Key Results: Total number of infections; expected deaths; hospitalizations; scenario building",Static Model ,Affected people,,,
+OCHA-Bucky,"Johns Hopkins University Applied Physics Laboratory, UN OCHA Centre for Humanitarian Data","Completed: Afghanistan, Democratic Republic of the Congo, Iraq, Somalia, South Sudan, Sudan.","The OCHA-Bucky model consists of a series of adjustments to an existing COVID-19 model (JHUAPL-Bucky) that was developed as part of the Centers for Disease Control and Prevention (CDC) COVID-19 Mathematical Modeling Forecasting Ensemble. OCHA-Bucky is a collection of coupled and stratified SEIR models. Since COVID-19 exhibits heavily age-dependent properties, wherein a majority of severe cases are in older individuals, SEIR models are stratified via the age demographic structure of a geographic region to obtain accurate estimates of case severity and deaths. Additionally, to model the spatial dynamics of COVID spread, we consider a set of SEIR sub-models at the smallest geographic level for which we have appropriate data. For a full description of the methodology please refer to the OCHA-Bucky methodology paper.
+",The Centre is producing bi-weekly reports with projections and observations for each country. ,Affected people,"<a href=""https://github.com/OCHA-DAP/pa-ocha-bucky"">Code repository</a>, including all the source code scripts necessary to run the model.
+","<a href=""leonardo.milano@un.org"">leonardo.milano@un.org</a>","<ul>
+<li>
+<a href=""https://github.com/OCHA-DAP/pa-ocha-bucky"">Code repository</a>, including all the source code scripts necessary to run the model.
+</li>
+<li>
+<a href=""https://ocha-bucky.readthedocs.io/en/latest/"">Technical documentation</a> and <a href=""https://ocha-bucky.readthedocs.io/en/latest/faq.html""> FAQs</a>, explaining how to configure and run the source code in the repository.
+</li>
+<li>
+<a href=""https://centre.humdata.org/ocha-bucky"">Methodology paper</a>, providing details on model assumptions and the main equations.
+</li>
+<li>
+<a href=""https://drive.google.com/drive/u/1/folders/16FR8owccpfIm-tspdAa4YTEwPoZKHtvI"">Biweekly reports</a> for six countries
+</li>
+<li>
+<a href=""https://drive.google.com/file/d/14DwkLTtrKOMcFnmP0ev7VKXC5JDgGthg/view?usp=sharing"">OCHA-Bucky model card</a> according to the <a href=""https://centre.humdata.org/peer-review-framework-2020"">Centre's Peer Review Framework.</a> 
+</li>
+</ul>
+"
 Imperial College London,"Imperial College London
 WHO Collaborating Centre for Infectious Disease Modelling
 MRC Centre for Global Infectious Disease Analysis
