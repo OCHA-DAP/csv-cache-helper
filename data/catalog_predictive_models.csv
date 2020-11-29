@@ -26,9 +26,9 @@ Famine Early Warning Systems Network (FEWSNET),"USAID, NASA, NOAA, USDA, USGS","
 Artemis- Famine Action Mechanism,World Bank,Pilot in 5 countries to be expanded to 21 additional countries,"The model combines qualitative, remote sensing, and data insights from multiple sources to generate a subnational signal of food insecurity at least 6 months to 1 year in advance.",No planned updates of the model after publication in scientific journal.,Food security,,,"
 Scientific paper to be published in 2020
 
-World Bank <ul><li><a href=""https://www.worldbank.org/en/programs/famine-early-action-mechanism"">press release</a></li>
+<ul><li>World Bank <a href=""https://www.worldbank.org/en/programs/famine-early-action-mechanism"">press release</a></li>
 
-UN OCHA collaboration <li><a href=""https://www.unocha.org/story/famine-action-mechanism-predictive-data-faster-financing-and-better-joint-response-rid-world"">FAM press release</a></li></ul>
+<li>UN OCHA collaboration <a href=""https://www.unocha.org/story/famine-action-mechanism-predictive-data-faster-financing-and-better-joint-response-rid-world"">FAM press release</a></li></ul>
 "
 Hunger Map LIVE,WFP and Alibaba,Global coverage (90 countries),Advanced statistical/ML system with a focus on large scale nowcasting. The hunger map is a platform that uses streams of public data from multiple sources to create a complex dynamic subnational portrait of world hunger. In places where the data is missing ML algorithms are used to make extrapolations.,Daily,Food security,,"<a href=""mailto:wfp.mvam@wfp.org"">wfp.mvam@wfp.org</a>","<a href=""https://hungermap.wfp.org/"">https://hungermap.wfp.org/</a>
 "
@@ -40,7 +40,10 @@ Crisis Computing/ Artificial Intelligence for Digital Response,Qatar Computing R
 Asset Impact Monitoring System (AIMS) ,WFP,"Pilots in Niger, Afghanistan, Sudan, South Sudan, Tajikistan",The objective of this system is to monitor the rehabilitation of degraded landscapes using satellite imagery and remote sensing. The AIMS model mainly monitors the degraded land which is rehabilitated with with the Food Assistance for Assets  (FFA) program. This approach gives evidence based quantifiable impacts of policy and landscape changes. ,AIMS Model in development/pilot phase. Last public update was given in Oct 2018 for the 5 pilot countries. ,Geography and infrastructure,,"<a href=""https://innovation.wfp.org/about-us"">https://innovation.wfp.org/about-us</a>","<ul><li> <a href=""https://docs.wfp.org/api/documents/WFP-0000099680/download/?_ga=2.126610821.946962890.1579025626-1204141535.1578873829"">AIMS model </a>documentation</li>
 
 <li> <a href=""https://innovation.wfp.org/project/aims"">Model overview </a> can be found here.</li></ul>"
-510 Typhoon Model,Netherlands Red Cross - 510,The Philippines,"Predictive model to identify high priority areas in the wake of a natural disaster. The model uses a large numbers of factors to assess this including but not limited to socio-economic factors, housing types, impact data and administrative boundaries. ",One fully validated model for Philippines available. Pilots in development to test model scale ability in Mozambique.,Coordination and context,"<a href="" https://github.com/rodekruis/Typhoon-Impact-based-forecasting-model/blob/master/models/four_models_bootstraping.R""> Code repository</a>, including all the source code scripts to run the model. ","<a href=""mailto:support@510.global"">support@510.global</a>","<ul><li><a href=""https://www.510.global/philippines-typhoon-haima-priority-index/"">Modeling Details </a></li> included in the press release
+"<ul><li><a href=""https://www.510.global/philippines-typhoon-haima-priority-index/"">Modeling Details </a> included in the press release</li>
+
+
+<li> <a href=""https://data.humdata.org/dataset/philippines-typhoon-haima-priority-index"">Output datasets</a> and additional details for other typhoons such as Haiyan, Rammasun, Hagupit and Glenda also available)</li></ul>",Netherlands Red Cross - 510,The Philippines,"Predictive model to identify high priority areas in the wake of a natural disaster. The model uses a large numbers of factors to assess this including but not limited to socio-economic factors, housing types, impact data and administrative boundaries. ",One fully validated model for Philippines available. Pilots in development to test model scale ability in Mozambique.,Coordination and context,"<a href="" https://github.com/rodekruis/Typhoon-Impact-based-forecasting-model/blob/master/models/four_models_bootstraping.R""> Code repository</a>, including all the source code scripts to run the model. ","<a href=""mailto:support@510.global"">support@510.global</a>","<ul><li><a href=""https://www.510.global/philippines-typhoon-haima-priority-index/"">Modeling Details </a></li> included in the press release
 
 
 <li> <a href=""https://data.humdata.org/dataset/philippines-typhoon-haima-priority-index"">Output datasets</a> and additional details for other typhoons such as Haiyan, Rammasun, Hagupit and Glenda also available)</li></ul>"
@@ -51,7 +54,8 @@ REACH flood susceptibility model,REACH,Yemen,"A model is build using high resolu
 <li><a href=""https://www.impact-repository.org/document/reach/8a9165b9/reach_yem_methods_shelter_floodrisk_v9_sept2019.pdf"">https://www.impact-repository.org/document/reach/8a9165b9/reach_yem_methods_shelter_floodrisk_v9_sept2019.pdf</a></li></ul>
 
 "
-Global Disaster Displacement Risk Model,"IDMC, UNDRR, ETH Zurich",Global Coverage,"The model combines probabilistic analysis of events recorded in national loss databases (retrospective risk) with probabilistic risk estimates for low-frequency, high-impact events (prospective risk).
+"<ul><li><a href=""https://www.internal-displacement.org/publications/global-disaster-displacement-risk-a-baseline-for-future-work"">Main publication</a></li>
+<li><a href=""https://www.internal-displacement.org/database/global-displacement-risk-model"">Visualisation dashboard</a></li></ul> ","IDMC, UNDRR, ETH Zurich",Global Coverage,"The model combines probabilistic analysis of events recorded in national loss databases (retrospective risk) with probabilistic risk estimates for low-frequency, high-impact events (prospective risk).
 Prospective disaster displacement risk is expressed as a function of hazard, exposure and vulnerability:
 Risk = Exposure x Hazard x Vulnerability
 The prospective risk profile is calculated using hazard scenarios provided by a wide range of partners. These events represent all of the possible disasters that could affect a country over different return periods. For each grid cell in the exposure map, which has a resolution of between 1km x 1km in coastal areas to 5km x 5km inland, the expected impact of a hazard is calculated using vulnerability curves to determine an expected level of damage to homes and other structures based on the hazard’s intensity. Whenever the simulated damage to a home is more than 55 per cent, it is considered uninhabitable and the household displaced.","Model developed in 2018 using from the 2015 Global Assessment Report (<a href=""https://www.preventionweb.net/english/hyogo/gar/2015/en/home/ "">https://www.preventionweb.net/english/hyogo/gar/2015/en/home/</a> )",Affected people,,"<a href=""info@idmc.ch"">info@idmc.ch</a>","<ul><li>Main publication: <a href=""https://www.internal-displacement.org/publications/global-disaster-displacement-risk-a-baseline-for-future-work"">https://www.internal-displacement.org/publications/global-disaster-displacement-risk-a-baseline-for-future-work</a></li>
@@ -150,7 +154,7 @@ Scenario analysis for the transmission of COVID‑19,"Center for the Ecology of 
 Key Results: Total number of infections; expected deaths; hospitalizations; scenario building",Data and estimates updated daily,Affected people,"https://www.covid19.uga.edu/stochastic-GA.html
 https://github.com/CEIDatUGA/COVID-GA-model","John M. Drake
 Andreas Handel",https://www.covid19.uga.edu/stochastic-fitting-georgia-suplement.html
-Gravity model for spread of 2019-nCov in China,"Center for the Ecology of Infectious Diseases, University of Georgia",China,"Gravity-based model the risk of spatial spread of the 2019-nCov at the admin2 (prefecture) level in China, and to determine the efficacy of quarantines and travel restrictions imposed in Wuhan and other prefectures.",Static Model ,Affected people,https://github.com/CEIDatUGA/CoronavirusSpatial,John M. Drake,https://www.covid19.uga.edu/spatial-china.html
+Gravity model for spread of 2019-nCov in China,"Center for the Ecology of Infectious Diseases, University of Georgia",China,"Gravity-based model the risk of spatial spread of the 2019-nCov at the admin2 (prefecture) level in China, and to determine the efficacy of quarantines and travel restrictions imposed in Wuhan and other prefectures.",Static Model ,Affected people,"<a href="" https://github.com/CEIDatUGA/CoronavirusSpatial"">Code repository</a>, including all the source code scripts necessary to run the model.",John M. Drake,https://www.covid19.uga.edu/spatial-china.html
 Probability of Widespread Transmission,"Center for the Ecology of Infectious Diseases, University of Georgia",NA,"The model attempts to project the potential size of the COVID-19 outbreak by repurposing a previously developed Ebola model. This model can provide global ballpark figures of worse, worst, average case scenarios. Ongoing work on this model includes parametrization to have more region specific insight. 
 Key Results: Total number of infections; scenario building",Static Model ,Affected people,https://github.com/CEIDatUGA/ncov-coupled-outbreaks,"Andrew W. Park
 John M. Drake","https://www.covid19.uga.edu/final-size-supplement.html
@@ -178,7 +182,7 @@ Estimating unobserved SARS-CoV-2 infections in the United States,University of N
   
   <li><a href = ""scavany@nd.edu"">Sean M. Cavany</a> </li>
 
-</ul>  ","Published<a href=""https://www.medrxiv.org/content/10.1101/2020.03.15.20036582v2"">working paper</a>"
+</ul>  ","Published <a href=""https://www.medrxiv.org/content/10.1101/2020.03.15.20036582v2"">working paper</a>"
 Real-time forecasting of infectious disease dynamics,London School of Hygiene & Tropical Medicine,NA,"A Bayesian semi-mechanistic SEIR model of infectious diseases, that was used in real time during the 2013–2016 West African Ebola epidemic is presented. This model can be used for real-time forecasting of infectious diseases. Specific SARS-CoV-2 projections are not a part of this model at this stage. ",Static Model ,Affected people,https://github.com/sbfnk/ebola_forecasting_challenge,Sebastian Funks - ebastian.funk@lshtm.ac.uk,https://www.sciencedirect.com/science/article/pii/S1755436516300445
 Effect of travel restrictions on the spread of the (COVID-19) outbreak,"Northeastern University,
 Bruno Kessler Foundation,
@@ -207,15 +211,14 @@ Patient Knowhow Inc.",United States,Covid is an individual-based model that simu
   <li>Assaf P Oron</li>
   <li>Devabhaktuni Srikrishna</li>
 </ul> ","
-Published<a href=""https://www.medrxiv.org/content/10.1101/2020.04.08.20058487v1"">working paper</a>
+Published <a href=""https://www.medrxiv.org/content/10.1101/2020.04.08.20058487v1"">working paper</a>
 "
 CHIME (COVID-19 Hospital Impact Model for Epidemics),"Penn Medicine, University of Pennsylvania",United States,"The CHIME model and web app is designed to assist hospitals and public health officials with understanding hospital capacity in response to the COVID pandemic. The model outputs provide estimates of total daily and running totals of inpatient hospitalizations, ICU admissions, and patients requiring ventilation. The model is built using a SIR (Susceptible, Infected, Recovered) epidemiological model. 
 Key Results: Total number of infections; expected deaths; hospitalizations; scenario building",Data and estimates updated daily,Affected people,"<a href=""https://github.com/CodeForPhilly/chime""> Code repository </a>, including all the source code scripts necessary to run the model.","<a href=""pennsignals@uphs.upenn.edu"">pennsignals@uphs.upenn.edu</a>
 <ul>
   <li>Michael Becker </li>
   <li>Corey Chivers</li>
-</ul>  
-pennsignals@uphs.upenn.edu","<ul>
+</ul>  ","<ul>
   <li><a href = ""https://penn-chime.phl.io/"">Official Website </a> </li>
   <li><a href = ""http://predictivehealthcare.pennmedicine.org/2020/03/14/accouncing-chime.html""> Webtool</a> and links to additional documentation</li>
 </ul> "
@@ -227,4 +230,4 @@ Key Results: Total number of infections; expected deaths; hospitalizations; scen
   <li>Lisa J. White</li>
 </ul>  ","<a href=""http://epidemicforecasting.org/models""> Official Website </a>"
 EPIDEMIC FORECASTING: COVID-19,"Future of Humanity Institute, University of Oxford",Global,"The epidemic forecasting model and online tool can be used to calculate the estimated effect of various combinations of COVID countermeasures. Multiple parameters and compliance rates can be adjusted by decision makers. The output of the model is effective reproduction number which is the expected number of infections directly generated by one additional infection. This model works in conjunction with the GLEAM model (also in the catalogue)
-Key Results: Total number of infections; scenario building",Data and estimates updated daily,Total number of infections; scenario building,,"<a href=""jan.kulveit@philosophy.ox.ac.uk""> Jan Kulveit </a>",http://epidemicforecasting.org/models
+Key Results: Total number of infections; scenario building",Data and estimates updated daily,Total number of infections; scenario building,,"<a href=""jan.kulveit@philosophy.ox.ac.uk""> Jan Kulveit </a>","<a href=""http://epidemicforecasting.org/models""> Official Website </a>"
