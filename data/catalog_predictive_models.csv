@@ -129,10 +129,10 @@ Key Results: Total number of infections; expected deaths; hospitalizations; scen
 <li><a href=""https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf”> Published research </a> -Impact of non-pharmaceutical interventions (NPIs) </li> <ul>
 "
 Robert Verity study,Imperial College London,China,"A study of age-stratified data from mainland China that estimates duration from onset-of-symptoms to death or hospital discharge, and case fatality rate.",Static Model ,Affected people,"<a href=""https://github.com/mrc-ide/COVID19_CFR_submission"">Code repository</a>, including all the source code scripts necessary to run the model.","<ul>
-   <li><a href = ""r.verity@imperial.ac.uk""> Robert Verity</a> </li>
-   <li><a href = ""l.okell@imperial.ac.uk""> Lucy C Okell</a> </li>
-   <li><a href = ""i.dorigatti@imperial.ac.uk""> Ilaria Dorigatti</a> </li>
-</ul> ","<a href=""https://www.medrxiv.org/content/10.1101/2020.03.09.20033357v1.full.pdf+html""> Published research</a>, Estimates of the severity of COVID-19 disease"
+   <li> Robert Verity </li>
+   <li> Lucy C Okell </li>
+   <li> Ilaria Dorigatti </li>
+</ul> ","<a href=""https://www.medrxiv.org/content/10.1101/2020.03.09.20033357v1.full.pdf+html""> Published research</a>,  Estimates of the severity of COVID-19 disease"
 COVID Act Now,"Georgetown University Center for Global Health Science and Security, Stanford University Clinical Excellence Research Center, Grand Rounds",United States,"Open source model based on SEIR model used to provide state-specific projections of infection rates and ICU bed usage. Subnational projections for USA are reported. Dashboards for data visualization and APIs to explore all datasets available. 
 Key Results: Total number of infections; expected deaths; hospitalizations; scenario building",Data and estimates updated daily,Affected people,"<a href="" https://github.com/covid-projections/covid-projections""> Code repository </a>, including all the source code scripts necessary to run the model.","<a href=""info@covidactnow.org""> info@covidactnow.org</a>","<ul>
   <li><a href = ""https://www.covidactnow.org/"">Official Website </a> </li>
@@ -179,7 +179,7 @@ Andreas Handel","<ul>
 </ul> "
 Gravity model for spread of 2019-nCov in China,"Center for the Ecology of Infectious Diseases, University of Georgia",China,"Gravity-based model the risk of spatial spread of the 2019-nCov at the admin2 (prefecture) level in China, and to determine the efficacy of quarantines and travel restrictions imposed in Wuhan and other prefectures.",Static Model ,Affected people,"<a href="" https://github.com/CEIDatUGA/CoronavirusSpatial"">Code repository</a>, including all the source code scripts necessary to run the model.",John M. Drake,"<a href=""https://www.covid19.uga.edu/spatial-china.html""> Official Website </a>"
 Probability of Widespread Transmission,"Center for the Ecology of Infectious Diseases, University of Georgia",NA,"The model attempts to project the potential size of the COVID-19 outbreak by repurposing a previously developed Ebola model. This model can provide global ballpark figures of worse, worst, average case scenarios. Ongoing work on this model includes parametrization to have more region specific insight. 
-Key Results: Total number of infections; scenario building",Static Model ,Affected people,https://github.com/CEIDatUGA/ncov-coupled-outbreaks,"<ul>
+Key Results: Total number of infections; scenario building",Static Model ,Affected people,"<a href="" https://github.com/CEIDatUGA/ncov-coupled-outbreaks"">Code repository</a>, including all the source code scripts necessary to run the model.","<ul>
   <li>John M. Drake</li>
   <li>Andrew W. Park</li>
 
@@ -188,9 +188,9 @@ Key Results: Total number of infections; scenario building",Static Model ,Affect
    <li><a href = ""https://www.covid19.uga.edu/stochastic-fitting-georgia-suplement.htm"">Published research</a>- Model for Coupled Outbreaks</li>
 </ul>"
 Mass Testing and interventions impact,"Center for the Ecology of Infectious Diseases, University of Georgia",China,This model assesses the impact of a symptom-based mass screening and testing intervention during a novel infectious disease outbreak in China. ,Static Model ,Affected people,"<a href=""https://www.covid19.uga.edu/mass_testing.html"">Code repository</a>, including all the source code scripts necessary to run the model.","<ul>
-        <li> <a href = ""ygechn@gmail.com""> Yang Ge </a> </li>
-  <li>Brian McKay</li>
-  <li>Shengzhi Sun</li>
+   <li> Yang Ge  </li>
+  <li> Brian McKay </li>
+  <li> Shengzhi Sun </li>
 
 </ul> ","<a href=""https://www.medrxiv.org/content/10.1101/2020.02.20.20025973v2”> Published research </a> Assessing the impact of a symptom-based mass screening"
 Nowcasting the size of COVID 19,"Center for the Ecology of Infectious Diseases, University of Georgia",United States,"This model aims to nowcast the number of latent and symptomatic infections from a point in the past forward to the present. The authors accomplish this by fitting a time varying autoregressive model, and then forecast the fitted model curve using an exponential smoothing (ETS) model. The model works to determine the ratio of detected cases to the true number of cases i.e the ascertainment rate.
@@ -210,7 +210,7 @@ Key Results: Total number of infections",Static Model ,Affected people,"<a href=
     
 </ul>  
 "
-Estimating unobserved SARS-CoV-2 infections in the United States,University of Notre Dame,United States,This model aims to estimate the extent of community transmission of SARS-CoV-2 in the US that occurred prior to its widespread recognition. The extent of community transmission of SARS-CoV-2 is estimated using a stochastic simulation model that combined importation and local transmission processes. ,Static Model ,Affected people,,"
+Estimating unobserved SARS-CoV-2 infections in the United States,University of Notre Dame,United States,This model aims to estimate the extent of community transmission of SARS-CoV-2 in the US that occurred prior to its widespread recognition. The extent of community transmission of SARS-CoV-2 is estimated using a stochastic simulation model that combined importation and local transmission processes. ,Static Model ,Affected people,-,"
 <ul>
   
   <li><a href =""taperkins@nd.edu""> Alex Perkins</a> </li>
@@ -220,7 +220,7 @@ Estimating unobserved SARS-CoV-2 infections in the United States,University of N
 </ul>  ","Published <a href=""https://www.medrxiv.org/content/10.1101/2020.03.15.20036582v2"">working paper</a>"
 Real-time forecasting of infectious disease dynamics,London School of Hygiene & Tropical Medicine,NA,"A Bayesian semi-mechanistic SEIR model of infectious diseases, that was used in real time during the 2013–2016 West African Ebola epidemic is presented. This model can be used for real-time forecasting of infectious diseases. Specific SARS-CoV-2 projections are not a part of this model at this stage. ",Static Model ,Affected people,"<a href=""https://github.com/sbfnk/ebola_forecasting_challenge"">Code repository</a>, including all the source code scripts necessary to run the model.
 
-","<a href=""ebastian.funk@lshtm.ac.uk""> Sebastian Funks </a>","<a href=""https://www.sciencedirect.com/science/article/pii/S1755436516300445”> Published research </a> Real-time forecasting of infectious disease dynamics"
+","<a href=""ebastian.funk@lshtm.ac.uk""> Sebastian Funks </a>","<a href=""https://www.sciencedirect.com/science/article/pii/S1755436516300445""> Published research </a> Real-time forecasting of infectious disease dynamics"
 Effect of travel restrictions on the spread of the (COVID-19) outbreak,"Northeastern University,
 Bruno Kessler Foundation,
 ISI Foundation",Global,The authors use a global metapopulation disease transmission model (GLEAM) to project the impact of travel limitations on the national and international spread of the epidemic. The model is calibrated on the basis of internationally reported cases. The outputs are multiple dashboards which track the number of cases and risk of virus importation,Data and estimates updated daily,Affected people,"<a href=""https://github.com/mobs-lab/COVID-19"">Code repository </a> and datasets.","
@@ -240,7 +240,7 @@ ISI Foundation",Global,The authors use a global metapopulation disease transmiss
   <li><a href =""http://www.gleamviz.org/""> GLEAM model</a> details of global epidemic and mobility model</li>
 
 </ul> "
-Machine Learning the Phenomenology of COVID-19 ,Rensselaer Polytechnic Institute,United States,"Data-driven machine learning analysis of the COVID-19 pandemic from its early infection dynamics, specifically infection counts over time. The goal of this model is to project the infectious force i.e the rate of a mild infection becoming serious. Additionally the model estimates asymptomatic infections and makes overall predictions of new infections over time",Static Model ,Affected people,,"<a href=""magdon@cs.rpi.edu""> Malik Magdon-Ismail </a>","<a href = ""https://www.medrxiv.org/content/10.1101/2020.03.17.20037309v3"">Published research</a>Machine Learning the Phenomenology of COVID-19"
+Machine Learning the Phenomenology of COVID-19 ,Rensselaer Polytechnic Institute,United States,"Data-driven machine learning analysis of the COVID-19 pandemic from its early infection dynamics, specifically infection counts over time. The goal of this model is to project the infectious force i.e the rate of a mild infection becoming serious. Additionally the model estimates asymptomatic infections and makes overall predictions of new infections over time",Static Model ,Affected people,-,"<a href=""magdon@cs.rpi.edu""> Malik Magdon-Ismail </a>","<a href = ""https://www.medrxiv.org/content/10.1101/2020.03.17.20037309v3"">Published research</a>Machine Learning the Phenomenology of COVID-19"
 CORVID: Modeling layered non-pharmaceutical interventions against SARS-CoV-2,"Institute for Disease Modeling,
 Patient Knowhow Inc.",United States,Covid is an individual-based model that simulates the spread of SARS-CoV-2 in synthetic populations that represent communities in the United States.This model  can be used to understand the potential effectiveness of non-pharmaceutical interventions (NPIs) for both suppression and mitigation efforts. ,Static Model ,Affected people,"<a href=""https://github.com/dlchao/corvid""> Code repository </a>, including all the source code scripts necessary to run the model.","<ul>
   <li>Dennis Chao</li>
@@ -266,4 +266,4 @@ Key Results: Total number of infections; expected deaths; hospitalizations; scen
   <li>Lisa J. White</li>
 </ul>  ","<a href=""http://epidemicforecasting.org/models""> Official Website </a>"
 EPIDEMIC FORECASTING: COVID-19,"Future of Humanity Institute, University of Oxford",Global,"The epidemic forecasting model and online tool can be used to calculate the estimated effect of various combinations of COVID countermeasures. Multiple parameters and compliance rates can be adjusted by decision makers. The output of the model is effective reproduction number which is the expected number of infections directly generated by one additional infection. This model works in conjunction with the GLEAM model (also in the catalogue)
-Key Results: Total number of infections; scenario building",Data and estimates updated daily,Affected people,,"<a href=""jan.kulveit@philosophy.ox.ac.uk""> Jan Kulveit </a>","<a href=""http://epidemicforecasting.org/models""> Official Website </a>"
+Key Results: Total number of infections; scenario building",Data and estimates updated daily,Affected people,-,"<a href=""jan.kulveit@philosophy.ox.ac.uk""> Jan Kulveit </a>","<a href=""http://epidemicforecasting.org/models""> Official Website </a>"
