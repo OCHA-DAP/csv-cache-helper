@@ -109,11 +109,15 @@ Key Results: Total number of infections; expected deaths; hospitalizations; scen
   <li>Patrick GT Walker</li>
   <li>Charles Whittaker</li>
   <li>Oliver Watson</li>
- </ul>","<ul><li><a href=""https://mrc-ide.github.io/global-lmic-reports/"">Future scenarios</a> of the healthcare burden</li>
+ </ul>","<ul>
+
+<li><a href=""https://mrc-ide.github.io/global-lmic-reports/"">Future scenarios</a> of the healthcare burden</li>
  
  <li><a href=""https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-12-global-impact-covid-19/""> Published research</a>, global impact of COVID-19</li>
  
- <li><a href=""https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf”> Published research </a> -Impact of non-pharmaceutical interventions (NPIs) </li> </ul>"
+ <li><a href=""https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf”> Published research </a> -Impact of non-pharmaceutical interventions (NPIs) </li> 
+
+</ul>"
 Robert Verity study,Imperial College London,China,"A study of age-stratified data from mainland China that estimates duration from onset-of-symptoms to death or hospital discharge, and case fatality rate.",Static Model ,Affected people,"<a href=""https://github.com/mrc-ide/COVID19_CFR_submission"">Code repository</a>, including all the source code scripts necessary to run the model.","<ul>
   <li> Robert Verity </li>
   <li> Lucy C Okell </li>
