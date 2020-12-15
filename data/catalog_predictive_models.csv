@@ -115,7 +115,7 @@ Key Results: Total number of infections; expected deaths; hospitalizations; scen
  
  <li><a href=""https://www.imperial.ac.uk/mrc-global-infectious-disease-analysis/covid-19/report-12-global-impact-covid-19/""> Published research</a>, global impact of COVID-19</li>
  
- <li><a href=""https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf”> Published research </a> -Impact of non-pharmaceutical interventions (NPIs) </li> 
+ <li><a href=""https://www.imperial.ac.uk/media/imperial-college/medicine/sph/ide/gida-fellowships/Imperial-College-COVID19-NPI-modelling-16-03-2020.pdf""> Published research </a> -Impact of non-pharmaceutical interventions (NPIs) </li> 
 
 </ul>"
 Robert Verity study,Imperial College London,China,"A study of age-stratified data from mainland China that estimates duration from onset-of-symptoms to death or hospital discharge, and case fatality rate.",Static Model ,Affected people,"<a href=""https://github.com/mrc-ide/COVID19_CFR_submission"">Code repository</a>, including all the source code scripts necessary to run the model.","<ul>
@@ -147,7 +147,7 @@ Harvard T.H. Chan School of Public Health
 Centers for Disease Control and Prevention",Global,"Nowcasting model here attempts to estimate the complete case counts for a given reporting date, using a time series of case reporting that is known to be incomplete due to reporting delays. The model uses  Bayesian Smoothing, accounts for serial autocorrelation and gives output estimates that are smooth and accurate in multiple disease settings.",Depending on input time series,Affected people,"<a href=""https://github.com/sarahhbellum/NobBS"">Code repository</a>, including all the source code scripts necessary to run the model.","<ul>
   <li><a href=""sfm341@mail.harvard.edu""> Sarah F. McGough </a></li>
   <li><a href = ""nmenzies@hsph.harvard.edu""> Nicolas A. Menzies</a></li>
- </ul>","<a href=""https://www.biorxiv.org/content/10.1101/663823v1.full”> Published research </a> Nowcasting for epidemic tracking"
+ </ul>","<a href=""https://www.biorxiv.org/content/10.1101/663823v1.full""> Published research </a> Nowcasting for epidemic tracking"
 Stochastic model for the transmission of 2019-nCov in Wuhan,"Center for the Ecology of Infectious Diseases, University of Georgia","Wuhan, China","Stochastic SEIR based model that includes additional time-varying rates of case detection, patient isolation, and case notification parameters. By using forward simulation, the model enables the generation of predictions about the future trajectory of the epidemic under alternative scenarios for containment. The model parameters have been calibrated using multiple different input sources.
 Key Results: Total number of infections; scenario building",Static Model ,Affected people,"<a href=""https://github.com/CEIDatUGA/COVID-stochastic-fitting"">Code repository</a>, including all the source code scripts necessary to run the model.","<ul>
   <li>John M. Drake</li>
@@ -174,7 +174,7 @@ Mass Testing and interventions impact,"Center for the Ecology of Infectious Dise
   <li> Yang Ge </li>
   <li> Brian McKay </li>
   <li> Shengzhi Sun </li>
- </ul>","<a href=""https://www.medrxiv.org/content/10.1101/2020.02.20.20025973v2”> Published research </a> Assessing the impact of a symptom-based mass screening"
+ </ul>","<a href=""https://www.medrxiv.org/content/10.1101/2020.02.20.20025973v2""> Published research </a> Assessing the impact of a symptom-based mass screening"
 Nowcasting the size of COVID 19,"Center for the Ecology of Infectious Diseases, University of Georgia",United States,"This model aims to nowcast the number of latent and symptomatic infections from a point in the past forward to the present. The authors accomplish this by fitting a time varying autoregressive model, and then forecast the fitted model curve using an exponential smoothing (ETS) model. The model works to determine the ratio of detected cases to the true number of cases i.e the ascertainment rate.
 Key Results: Total number of infections",Data and estimates updated daily,Affected people,"<a href=""https://github.com/CEIDatUGA/ncov-nowcast"">Code repository</a>, including all the source code scripts necessary to run the model.",John M. Drake,"<a href=""https://www.covid19.uga.edu/nowcast.html""> Official Website </a>"
 SARS-CoV-2 mortality during the early stages of an epidemic,"Institute of Social and Preventive Medicine, University of Bern
