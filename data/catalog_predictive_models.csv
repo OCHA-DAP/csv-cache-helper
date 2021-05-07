@@ -238,3 +238,47 @@ InaSAFE - Flood impact model,Kartoza and Red Cross Red Crescent Climate Centre ,
 <li><a href =""tim@kartoza.com""> Tim Sutton </a> </li>
 <li><a href = ""jaime@climatecentre.org""> Catalina Jaime </a> </li>
 </ul>","<a href=""https://fba.inasafe.org/""> Official Website </a>"
+"CALM, the Cholera Artificial Learning Model",The International Genetically Engineered Machine (iGEM) Foundation,Yemen,"Cholera Artificial Learning Model (CALM) creates a system of four extreme-gradient-boosting (XGBoost) machine learning models that, in tandem, forecast the exact number (with an error margin of 4.787 cases per 10,000) of cholera cases any given Yemeni governorate will experience for multiple time intervals ranging from 2 weeks to 2 months. Details about features engineering, model tuning and results are publicly available.",Static Model,Affected people (Health),"<a href=""https://github.com/igemsoftware2018/Lambert_GA_CALM""> Code repository </a>","<a href =""rohilbadkundri@gmail.com""> Rohil Badkundri </a> 
+","<ul><li><a href=""https://2018.igem.org/Team:Lambert_GA/CALM_MODEL#target6"">Official Website</a></li>
+ 
+ <li><a href="" https://arxiv.org/abs/1902.06739"">Methodology</a> Peer reviewed published research</li></ul>"
+Cholera Prediction Modeling System,"University of Florida
+National Aeronautics and Space Administration",Yemen,"This model uses satellite and ground-based data to forecast the risk of cholera in Yemen and other countries. The map linked alongside shows the forecasted risk of cholera in Yemen from August 10 to September 6, 2020. It was created with the Cholera Prediction Modeling System, which incorporates NASA precipitation data, air temperature data from NASA’s MERRA-2 reanalysis product, and population data. The number of cholera cases could increase in coming weeks, influenced by heavy rains that usually fall in August, though researchers predict the outbreaks should be limited to a few hotspots unless there is a large population displacement. The model got its first real-world test in 2017, and achieved 92 percent accuracy in predicting areas where cholera appeared that year.",Static Model,Affected people (Health),,"
+<a href =""ajutla@ufl.edu""> Antarpreet Jutla </a> 
+","<ul><li><a href=""https://earthobservatory.nasa.gov/images/147101/predicting-cholera-risk-in-yemen#:~:text=Cholera%20is%20a%20waterborne%20bacterial,spread%20quickly%20through%20a%20population.&text=It%20was%20created%20with%20the,reanalysis%20product%2C%20and%20population%20data"">Latest NASA blog on model updates</a></li>
+ 
+ <li><a href=""https://www.nasa.gov/press-release/nasa-investment-in-cholera-forecasts-helps-save-lives-in-yemen"">NASA blogpost</a> </li></ul>"
+Using Predictive Analytics to Identify Children at High Risk of Defaulting From a Routine Immunization Program: Feasibility Study,"Child Health and Vaccines program, Interactive Research and Development (IRD)",Pakistan,"This predictive analytics algorithm is designed to identify the children who are likely to default on subsequent immunization visits. 47,554 longitudinal immunization records, which were classified into the training and validation cohorts. Four machine learning models (random forest; recursive partitioning; support vector machines, SVMs; and C-forest) were used to generate the algorithm that predicts the likelihood of each child defaulting from the follow-up immunization visit. Each of the models was assessed in terms of accuracy, precision (positive predictive value), sensitivity, specificity and negative predictive value, and area under the curve (AUC) and is seen to perform resonably. This model demonstrates that predictive analytics can accurately identify children who are at a higher risk for defaulting on follow-up immunization visits and could be targeted for additional interventions.",Static Model,Affected people (Health),,"<ul> 
+<li><a href =""subhash_chandir@hms.harvard.edu""> Subhash Chandir  </a> </li> 
+<li><a href = """"> Danya Arif Siddiqi  </a> </li>
+<li><a href = """"> Owais Ahmed Hussain  </a> </li>  
+</ul>","Subhash Chandir 
+Danya Arif Siddiqi 
+Owais Ahmed Hussain"
+Platform for Real-time Impact and Situation Monitoring (PRISM),"World Food Program
+Japan Government
+USAID","Global - Indonesia, Sri Lanka, and Cambodia, while deployments to Mongolia and Afghanistan are forthcoming","PRISM enables WFP’s partners in government and WFP country offices to access the latest available climate hazard information alongside vulnerability data through an intuitive, map-based dashboard. PRISM combines information from satellites and other remote sensing sources with WFP data on vulnerability to create actionable climate information for decision makers, allowing them to prioritize assistance to those most in need.PRISM is capable of producing impact-based forecasts: converting climate information into programming which focuses on the socioeconomic impact of a hazard.",Daily Updates,Food Security & Nutrition,,,"<ul>
+<li><a href=""https://www.prism-kh.info//"">Official Website</a></li>
+ <li><a href=""https://prism-mongolia.org/"">PRISM Model output for Mongolia</a> </li>
+ <li><a href=""https://wfpinnovation.medium.com/re-introducing-prism-wfps-climate-hazard-monitoring-system-making-global-impact-e88feaaffea6"">WFP blog post</a> </li>
+
+</ul>"
+Managing Risk through Economic Development (M-RED),Mercy Corps,"Nepal, Indonesia, and Timor-Leste","M-RED will use drone technology to measure and monitor land to take more effective preemptive measures against land degradation and floods in Nepal (pilot). By observing targeted areas, the program should accurately detect and track land use changes. The data and predictive analytics are used to model floods and track shifting rivers and are designed to will benefit target communities. Model performance and details are documented but code is not public.",Static Model,Coordination and Context (Affected Areas),,"<a href =""np-info@mercycorps.org""> np-info@mercycorps.org </a>","<ul>
+ <li><a href=""https://nepal.mercycorps.org/project/managing-risk-through-economic-development-ii-mred-ii/"">Official Website</a> </li>
+<li><a href=""http://chrisallan.info/wp-content/uploads/2010/04/mc_gd.pdf"">Official Detailed Documentation</a></li>
+ <li><a href=""https://www.mercycorps.org/research-resources/impact-results-mred"">Mercy Corps Blogpost</a> </li>
+ <li><a href=""https://medium.com/@tsterl20/the-ngos-eye-in-the-sky-d6ec520dd4b0"">Blogpost with model results</a> </li>
+
+</ul>"
+Predicting Demographic Trends for Global UNHCR Persons of Concern,UNHCR,Global,The Demographic Projection Tool (DPTool) used uses data that are already available to UNHCR field operations. This model uses the demographic balancing equation to simulate different scenarios about the future size and composition of the refugee population.The tool at the moment only works well if the contextual conditions of a humanitarian emergency remain the same. The DPTool is better-suited for short-term projections in its current iteration. The tool also continues to rely heavily on UNHCR personnel who must define the parameters of the model based on their expert knowledge of the situation on the field.,Static Model,Affected people,,"<ul> 
+<li><a href =""demogr.mpg.de""> Diego Alburez-Gutierrez </a> </li> 
+<li><a href = """"> Carlota Segura García  </a> </li>
+</ul>","<ul>
+ <li><a href=""https://demographicprojection.unhcr.org/#_ga=2.257789131.1126659999.1617632749-1714667571.1617632749"">DPT Tool Official Website</a> </li>
+<li><a href=""https://www.unhcr.org/5ae9ee747.pdf"">Non-Peer reviewed paper</a></li>
+ <li><a href=""https://www.unhcr.org/innovation/can-look-future-using-demographic-models-project-populations-unhcr/"">UNHCR Blogpost</a> </li>
+
+</ul>"
+Modelling Early Risk Indicators to Anticipate Malnutrition (MERIAM),"Action Against Hunger, the Graduate Institute of Geneva, John Hopkins University, and the University of Maryland.","Kenya, Niger, Nigeria, Uganda, Somalia","MERIAM deploys a complementary combination of innovative methodologies – both econometric and computational modelling – and leverages a variety of existing and accessible data sets to rigorously capture causal factors of acute malnutrition. Taken together, these aspects allow the project to dynamically model the fluctuation of acute malnutrition in contexts where this information is most urgently required. By better understanding the leading risk factors for acute malnutrition, MERIAM can forecast who may be most at-risk of becoming wasted, when they are likely to become wasted, and where (in what geographical area they reside).",Model in developement,Food Security & Nutrition,,"<a href =""https://www.rbhavnani.com""> Ravinder Bhavani</a>","<ul>
+ <li><a href=""https://knowledgeagainsthunger.org/research/prevention/meriam-modelling-early-risk-indicators-to-anticipate-malnutrition/"">Official Website</a> </li>
+</ul>"
