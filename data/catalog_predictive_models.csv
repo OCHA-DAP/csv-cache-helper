@@ -301,3 +301,4 @@ ACLED Conflict Alert System (CAST),ACLED,Global,"The ACLED Conflict Alert System
  <li><a href=""https://acleddata.com/early-warning-research-hub/conflict-alert-system/#reports"">Monthly Report</a></li>
  <li><a href=""https://acleddata.com/early-warning-research-hub/conflict-alert-system"">Official website</a></li>
 </ul>"
+SIMUGRAV model for forced displacement forecast,UNHCR,Global,The model produces forecasts of bilateral forced displacement stock and flows population figures (refugees + asylum seekers) three years ahead based on a gravity framework of push and pull factors affecting displacement.,It was first developed in 2022 and is updated yearly,Refugees and persons of concern,https://github.com/GDS-Data-Science/gravity_app,"<a href =""mailto:pellandr@unhcr.org"">pellandr@unhcr.org</a>",
